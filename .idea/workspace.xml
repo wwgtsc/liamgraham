@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0cadf11-4a97-4653-9696-be57e0e01e78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contact.rb" afterPath="$PROJECT_DIR$/app/models/contact.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/contact_email.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/contact_email.text.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,8 +25,9 @@
     <file path="/application.html.erb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381781537309" ignored="false" />
     <file path="/about.html.erb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381782575831" ignored="false" />
     <file path="/contact.html.erb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381787646144" ignored="false" />
-    <file path="/contacts_controller.rb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381805198477" ignored="false" />
+    <file path="/contacts_controller.rb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381806341659" ignored="false" />
     <file path="/contact.rb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381805099786" ignored="false" />
+    <file path="/user_mailer.rb" changelist="b0cadf11-4a97-4653-9696-be57e0e01e78" time="1381805938428" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,34 @@
       <file leaf-file-name="contacts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="0.24862888">
+            <state line="8" column="39" selection-start="204" selection-end="204" vertical-scroll-proportion="0.24862888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_mailer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="85" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_email.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/contact_email.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="33" selection-start="141" selection-end="141" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_email.text.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/contact_email.text.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="73" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -103,33 +132,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="11" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap_and_overrides.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/owner.rb" />
-        <option value="$PROJECT_DIR$/app/views/visitors/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/visitors_controller.rb" />
         <option value="$PROJECT_DIR$/lib/example.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss" />
@@ -168,6 +167,9 @@
         <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/contact.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/contact_email.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/contact_email.text.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
       </list>
     </option>
@@ -274,6 +276,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user_mailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liamgraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liamgraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -337,6 +361,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liamgraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liamgraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -687,25 +729,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="3" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="48" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/owner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="59" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" />
@@ -788,9 +811,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="85" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/contact_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="141" selection-end="141" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/contact_email.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="73" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="0.24862888">
+        <state line="8" column="39" selection-start="204" selection-end="204" vertical-scroll-proportion="0.24862888">
           <folding />
         </state>
       </provider>
